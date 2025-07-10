@@ -3,7 +3,7 @@ import { useAuthStore } from '../stores/auth'
 
 // Import components
 import Login from '../views/login.vue'
-import Dashboard from '../views/Dashboard.vue'
+import Dashboard from '../views/dashboard.vue'
 import PatientList from '../views/patients/PatientList.vue'
 import PatientForm from '../views/patients/PatientForm.vue'
 import DoctorList from '../views/doctors/DoctorList.vue'
