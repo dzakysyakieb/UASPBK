@@ -1,0 +1,57 @@
+{
+  "users": [],
+  "patients": [
+    {
+      "namaLengkap": "dzaky",
+      "jenisKelamin": "Laki-laki",
+      "noHp": "083826754795",
+      "umur": 20,
+      "keluhan": "pusing,mual",
+      "tanggalMendaftar": "2025-07-10",
+      "alamat": "jl.rimbo panjang",
+      "id": 1
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr. dzaky syakieb ",
+      "jenisKelamin": "Laki-laki",
+      "specialization": "UMUM",
+      "email": "dzakysyakieb0@gmail.com",
+      "phone": "083826754795",
+      "id": 1
+    }
+  ],
+  "appointments": [],
+  "medical_records": [],
+  "prescriptions": [
+    {
+      "patientId": "1",
+      "medicineName": "dopamin",
+      "dosage": "dewasa",
+      "duration": "3x sehari",
+      "notes": "sebelum makan",
+      "id": 1
+    }
+  ],
+  "reports": [
+    {
+      "patientId": 1,
+      "doctorId": 1,
+      "date": "2025-07-10",
+      "time": "21:30",
+      "status": "completed",
+      "notes": "",
+      "keluhan": "pusing,mual",
+      "prescriptions": [
+        {
+          "medicineName": "dopamin",
+          "dosage": "dewasa",
+          "duration": "3x sehari",
+          "notes": "sebelum makan"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

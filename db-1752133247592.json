@@ -1,0 +1,37 @@
+{
+  "users": [],
+  "patients": [
+    {
+      "namaLengkap": "sueb",
+      "jenisKelamin": "Laki-laki",
+      "noHp": "083826754795",
+      "umur": 20,
+      "keluhan": "asd",
+      "tanggalMendaftar": "2025-07-10",
+      "alamat": "jl.rimbo panjang",
+      "id": 1
+    }
+  ],
+  "doctors": [
+    {
+      "name": "dzaky",
+      "jenisKelamin": "Laki-laki",
+      "specialization": "UMUM",
+      "email": "dzakysyakieb0@gmail.com",
+      "phone": "083826754795",
+      "id": 1
+    }
+  ],
+  "appointments": [],
+  "medical_records": [
+    {
+      "patientId": 1,
+      "doctorId": 1,
+      "date": "2025-07-11",
+      "time": "21:30",
+      "status": "completed",
+      "notes": "",
+      "id": 1
+    }
+  ]
+}
