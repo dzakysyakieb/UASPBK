@@ -4,7 +4,7 @@ import { useAuthStore } from '../stores/auth'
 // Import components
 import Login from '../views/login.vue'
 import Dashboard from '../views/dashboard.vue'
-import PatientList from '../views/patients/PatientList.vue'
+import PatientList from '../views/patients/patientlist.vue'
 import PatientForm from '../views/patients/PatientForm.vue'
 import DoctorList from '../views/doctors/DoctorList.vue'
 import DoctorForm from '../views/doctors/DoctorForm.vue'
